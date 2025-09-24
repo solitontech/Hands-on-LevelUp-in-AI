@@ -170,7 +170,7 @@ uv --version
 
 ### Installing Required Python Packages with UV
 
-With your virtual environment activated, install the necessary packages:
+With your virtual environment activated, install the necessary packages (optional):
 
 ```bash
 uv pip install numpy pandas matplotlib scikit-learn jupyter
@@ -184,6 +184,16 @@ git clone [repository-url]
 
 # Navigate to the repository folder
 cd [repository-name]
+
+# Create and activate venv with uv
+uv venv
+
+# Install the packages from the pyproject.toml
+uv pip install -e .
+
+# To add custom packages
+uv add <package_name>
+
 ```
 
 Replace `[repository-url]` with the actual URL of the provided repository.
