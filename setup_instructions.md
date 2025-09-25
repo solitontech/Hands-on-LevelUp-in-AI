@@ -104,12 +104,15 @@ pip install uv
 # Verify installation
 uv --version
 ```
+**Note**: After installing UV globally, you can use it for any Python project on your system.
 
-## 5. Setting Up a Virtual Environment
+## 5. Understanding Virtual Environments
 
 A virtual environment isolates your project dependencies from your system Python. You can use either the traditional venv approach or UV's built-in virtual environment management.
 
-### Using UV's virtual environment management (after installing UV)
+### General Virtual Environment Setup with UV
+
+For any Python project, you can create a virtual environment using:
 
 #### Windows/macOS/Linux
 ```bash
@@ -131,7 +134,7 @@ uv venv
 source .venv/bin/activate
 ```
 
-# Repository Setup
+# Repository/Project Specific Setup
 
 ## 1. Cloning the Learning Content Repository
 
@@ -185,8 +188,8 @@ Here are the key Git commands you'll use most frequently:
 
 1. Open VS Code
 2. Open the project folder: `File > Open Folder` and select the cloned repository folder
-3. Navigate to the `notebooks` folder in the Explorer view
-4. Open `python_basics.ipynb`
+3. Navigate to the `SPL-7` folder in the Explorer view
+4. Open `week1_python_basics.ipynb` under the `week1` folder.
 5. In the top right corner, select the Python interpreter from your virtual environment
 6. You can now run cells by clicking the play button to the left of each cell or by pressing `Shift+Enter`
 
