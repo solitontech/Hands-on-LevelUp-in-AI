@@ -10,7 +10,7 @@ This repository is your gateway to the SPL-7 contest. Here you'll find all the m
 
 Preparation is key to victory! Follow these steps to enter the arena:
 
-1. 🛠️ **Set Up Your Battle Station**: Follow the instructions in `setup_instructions.md` to prepare your coding environment
+1. 🛠️ **Set Up Your Battle Station**: Follow the instructions in [setup_instructions.md](./setup_instructions.md) to prepare your coding environment
 2. 📚 **Train With Weekly Challenges**: Dive into each week's materials to build your skills
 3. 💪 **Sharpen Your Skills**: Complete all weekly exercises to gain the edge over your competitors
 4. 🧩 **Solve the Challenges**: Put your knowledge to the test.
@@ -19,10 +19,18 @@ Preparation is key to victory! Follow these steps to enter the arena:
 
 Here's what you'll find in your contestant toolkit:
 
-- `setup_instructions.md`: Your essential guide to building the perfect development environment
-- `week1/`: First week's competition materials:
-  - `learning_with_chatgpt.md`: Secret strategies for using ChatGPT to gain a competitive advantage
-  - `week1_python_basics.ipynb`: Your first set of Python challenges to conquer
+- [setup_instructions.md](./setup_instructions.md): Your essential guide to building the perfect development environment
+- **Week 1**: First week's competition materials:
+  - [learning_with_chatgpt.md](./week1/learning_with_chatgpt.md): Secret strategies for using ChatGPT to gain a competitive advantage
+  - [week1_python_basics.ipynb](./week1/week1_python_basics.ipynb): Your first set of Python challenges to conquer
+
+## ⌛ Coming Soon: Week 2 Preview
+
+Get ready for an exciting Week 2 where you'll:
+- 🌐 Explore the world of APIs and web integration
+- 👥 Register your team for the main competition event
+
+The countdown has begun! Complete Week 1 to be fully prepared for what comes next.
 
 ## 💬 Contestant Community
 
