@@ -38,38 +38,53 @@ VS Code is a lightweight but powerful source code editor that runs on your deskt
 3. Run the installer
 4. **Important**: Check the box that says "Add Python to PATH"
 5. Click "Install Now"
-6. Verify installation by opening Command Prompt and typing:
+6. Open Command Prompt to verify installation:
+   - Press `Win + R`, type `cmd` and press Enter
+   - Or search for "Command Prompt" in the Start menu
+   - Then type:
    ```
    python --version
    ```
 
 ### macOS
-1. Install Homebrew if you don't have it:
+1. Open Terminal:
+   - Press `Cmd + Space`, type "Terminal" and press Enter
+   
+2. Install Homebrew if you don't have it:
    ```
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
-2. Install Python using Homebrew:
+3. In the same Terminal, install Python using Homebrew:
    ```
    brew install python
    ```
-3. Verify installation by opening Terminal and typing:
+4. Still in Terminal, verify installation by typing:
    ```
    python3 --version
    ```
 
 ### Linux
-1. Most Linux distributions come with Python pre-installed
-2. If not, install it using your package manager:
-   - Debian/Ubuntu: `sudo apt update && sudo apt install python3 python3-pip`
-   - RHEL/Fedora/CentOS: `sudo dnf install python3 python3-pip`
-3. Verify installation by opening Terminal and typing:
+1. Open Terminal:
+   - Press `Ctrl + Alt + T` or search for "Terminal" in your applications
+
+2. Most Linux distributions come with Python pre-installed
+3. If not, install it using your package manager in the Terminal:
+   - Debian/Ubuntu: 
+     ```
+     sudo apt update && sudo apt install python3 python3-pip
+     ```
+   - RHEL/Fedora/CentOS: 
+     ```
+     sudo dnf install python3 python3-pip
+     ```
+4. Still in Terminal, verify installation by typing:
    ```
    python3 --version
    ```
 
 ## 3. Installing Required VS Code Extensions
 
-VS Code extensions are add-ons that enhance the editor's functionality for specific programming languages, frameworks, and tools.They provide features like syntax highlighting, code completion, debugging capabilities, and specialized tools that make development easier and more efficient. Extensions allow you to customize VS Code to create an ideal environment for your specific programming needs.
+VS Code extensions are add-ons that enhance the editor's functionality for specific programming languages, frameworks, and tools. They provide features like syntax highlighting, code completion, debugging capabilities, and specialized tools that make development easier and more efficient. Extensions allow you to customize VS Code to create an ideal environment for your specific programming needs.
 
 For our Python and AI learning path, we'll need several key extensions that will provide essential Python development features:
 
@@ -86,9 +101,11 @@ UV is a modern Python package manager that's significantly faster than pip. It p
 
 ### Installing UV
 
-With your virtual environment activated:
-
 #### Windows
+1. Open Command Prompt or PowerShell:
+   - Press `Win + X` and select "Windows PowerShell" or "Command Prompt"
+   - Or search for "cmd" or "powershell" in the Start menu
+
 ```powershell
 # Install UV using pip
 pip install uv
@@ -97,6 +114,10 @@ uv --version
 ```
 
 #### macOS/Linux
+1. Open Terminal:
+   - macOS: Press `Cmd + Space`, type "Terminal" and press Enter
+   - Linux: Press `Ctrl + Alt + T` or search for "Terminal" in your applications
+
 ```bash
 # Install UV using pip
 pip install uv
@@ -111,29 +132,54 @@ A virtual environment isolates your project dependencies from your system Python
 
 ### Using UV's virtual environment management (after installing UV)
 
-#### Windows/macOS/Linux
+#### Windows
+1. Open Command Prompt or PowerShell:
+   - Press `Win + X` and select "Windows PowerShell" or "Command Prompt"
+   - Or search for "cmd" or "powershell" in the Start menu
+
+```bash
+# Navigate to your project folder
+cd path\to\your\project
+
+# Create a virtual environment with UV
+uv venv
+
+# Optional: Specify a Python version 
+# uv venv --python C:\Python312\python.exe
+
+# Activate the virtual environment
+.venv\Scripts\activate
+```
+
+#### macOS/Linux
+1. Open Terminal:
+   - macOS: Press `Cmd + Space`, type "Terminal" and press Enter
+   - Linux: Press `Ctrl + Alt + T` or search for "Terminal" in your applications
+
 ```bash
 # Navigate to your project folder
 cd path/to/your/project
 
-# Create and activate a virtual environment with UV
+# Create a virtual environment with UV
 uv venv
 
-# Similar to the venv approach, you can also specify a specific Python version with UV
-# For example: uv venv --python python3.11
-# Or specify the full path: uv venv --python C:\Python311\python.exe (Windows)
-# Or on macOS/Linux: uv venv --python /usr/bin/python3.11
+# Optional: Specify a Python version
+# uv venv --python python3.12
+# Or with full path: uv venv --python /usr/bin/python3.12
 
-# On Windows
-.venv\Scripts\activate
-
-# On macOS/Linux
+# Activate the virtual environment
 source .venv/bin/activate
 ```
 
 # Repository Setup
 
 ## 1. Cloning the Learning Content Repository
+
+1. Open a terminal:
+   - **Windows**: Open Command Prompt or PowerShell
+   - **macOS/Linux**: Open Terminal
+
+2. Run the following commands:
 
 ```bash
 # Clone the repository
@@ -142,41 +188,55 @@ git clone [repository-url]
 # Navigate to the repository folder
 cd [repository-name]
 
-# Create and activate venv with uv
+# Create a virtual environment with UV
 uv venv
+
+# Activate the virtual environment
+# On Windows:
+.venv\Scripts\activate
+# On macOS/Linux:
+# source .venv/bin/activate
 
 # Install the packages from the pyproject.toml
 uv pip install -e .
 
-# To add custom packages
+# To add custom packages (optional)
 uv add <package_name>
-
 ```
 
 Replace `[repository-url]` with the actual URL of the provided repository.
 
+**Note**: You should see your terminal prompt change to indicate that the virtual environment is active. It will typically show `(.venv)` at the beginning of the prompt line.
+
 ### Essential Git Commands
 
-Here are the key Git commands you'll use most frequently:
+Here are the key Git commands you'll use most frequently. Run these in your terminal while inside the repository folder:
 
 1. **git pull**: Update your local repository with the latest learning materials and examples. This is the command you'll use most often to get new content.
    ```bash
+   # Make sure you're in the repository directory
+   cd [repository-name]
+   
+   # Pull the latest changes
    git pull
    ```
 
 2. **git status**: Check if your local repository is up-to-date or if there are new changes available.
    ```bash
+   # Open terminal in the repository folder
    git status
    ```
 
 3. **git log**: View the history of updates to the learning materials.
    ```bash
+   # Open terminal in the repository folder
    # View recent commits
    git log --oneline -n 5
    ```
 
 4. **git checkout**: Switch to specific versions of learning materials or examples if needed.
    ```bash
+   # Open terminal in the repository folder
    # Checkout a specific file from the repository
    git checkout origin/main -- path/to/file.py
    ```
@@ -185,9 +245,12 @@ Here are the key Git commands you'll use most frequently:
 
 1. Open VS Code
 2. Open the project folder: `File > Open Folder` and select the cloned repository folder
-3. Navigate to the `notebooks` folder in the Explorer view
-4. Open `python_basics.ipynb`
-5. In the top right corner, select the Python interpreter from your virtual environment
+3. Navigate to the `week1` folder in the Explorer view
+4. Open `week1_python_basics.ipynb`
+5. In the top right corner, click on `Select Kernel` to select the Python interpreter from your virtual environment:
+
+   ![Selecting a kernel in VS Code](week1/images/kernel_selection.png)
+
 6. You can now run cells by clicking the play button to the left of each cell or by pressing `Shift+Enter`
 
 ## Troubleshooting
@@ -195,20 +258,45 @@ Here are the key Git commands you'll use most frequently:
 ### Python not found
 - Make sure Python is added to your PATH
 - Try using `python3` instead of `python` on macOS/Linux
+- Open a terminal and verify with `python --version` or `python3 --version`
 
 ### Jupyter not working
 - Make sure you've installed the Jupyter extension for VS Code
-- Try reinstalling the Jupyter package: `uv pip install --upgrade jupyter`
+- Open a terminal in your project directory with the virtual environment activated and run:
+  ```bash
+  uv pip install --upgrade jupyter
+  ```
 
 ### Package installation errors
-- Make sure your virtual environment is activated
-- Try using UV to install packages: `uv pip install <package-name>`
-- If UV is having issues, try reinstalling it
+- Make sure your virtual environment is activated (you should see `(.venv)` in your terminal prompt)
+- Open a terminal in your project directory and run:
+  ```bash
+  # Install a specific package
+  uv pip install <package-name>
+  
+  # List installed packages to verify
+  pip list
+  ```
+- If UV is having issues, try reinstalling it from your terminal
 - On Windows, you might need Visual C++ build tools for some packages: [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
 ### UV specific issues
-- If UV commands aren't found, ensure it's properly installed and in your PATH
-- For dependency conflicts, try `uv pip install --resolution=highest <package-name>` to get the latest compatible versions
+- If UV commands aren't found, open a new terminal and ensure it's properly installed in your PATH
+- For dependency conflicts, open a terminal and run:
+  ```bash
+  uv pip install --resolution=highest <package-name>
+  ```
+
+## Additional Resources
+
+### Tools in Data Science Course
+
+If you're interested in learning more about using VS Code, Python, and other tools for data science, check out this free course:
+
+- [Tools in Data Science](https://www.s-anand.net/blog/tools-in-data-science-course-is-free-for-all/)
+- [Course GitHub Repository](https://github.com/sanand0/tools-in-data-science-public/tree/main)
+
+This course includes helpful video tutorials on using VS Code, Python, and various data science tools. It's a great supplement to this learning path and provides additional hands-on guidance for setting up and working with your development environment.
 
 ## Need Help?
 
