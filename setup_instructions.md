@@ -4,7 +4,7 @@ Congratulations on taking this amazing step to level up your skills! Get ready f
 
 This guide will help you set up your development environment for the Python and AI weekly learning content. Follow these steps to install and configure all necessary tools.
 
-## 1. Installing Visual Studio Code
+## 1. Installing Visual Studio Code (Optional, if haven't installed VS code)
 
 VS Code is a lightweight but powerful source code editor that runs on your desktop.
 
@@ -131,6 +131,8 @@ uv --version
 
 A virtual environment isolates your project dependencies from your system Python. You can use either the traditional venv approach or UV's built-in virtual environment management.
 
+**Note**: The following instructions are general guidelines to help you learn how to create virtual environments.
+
 ### Using UV's virtual environment management (after installing UV)
 
 #### Windows
@@ -176,11 +178,17 @@ source .venv/bin/activate
 
 ## 1. Cloning the Learning Content Repository
 
+- repository-url - https://github.com/solitontech/SPL-7.git
+- repository name - SPL-7
+
+
 1. Open a terminal:
    - **Windows**: Open Command Prompt or PowerShell
    - **macOS/Linux**: Open Terminal
 
 2. Run the following commands:
+
+Replace `[repository-url]` with the actual URL and `[repository-name]` with the actual name of the provided repository provided above.
 
 ```bash
 # Clone the repository
@@ -204,8 +212,6 @@ uv pip install -e .
 # To add custom packages (optional)
 uv add <package_name>
 ```
-
-Replace `[repository-url]` with the actual URL of the provided repository.
 
 **Note**: You should see your terminal prompt change to indicate that the virtual environment is active. It will typically show `(.venv)` at the beginning of the prompt line.
 
