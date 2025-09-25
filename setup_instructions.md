@@ -228,19 +228,54 @@ Here are the key Git commands you'll use most frequently. Run these in your term
    git status
    ```
 
-3. **git log**: View the history of updates to the learning materials.
+3. **git add**: Stage changes before committing them. This marks which changes you want to include in your next commit.
+   ```bash
+   # Add a specific file
+   git add filename.py
+   
+   # Add multiple specific files
+   git add file1.py file2.py
+   
+   # Add all files of a specific type
+   git add *.py
+   
+   # Add all changes in the current directory
+   git add .
+   
+   # Add changes interactively (review each change)
+   git add -p
+   ```
+
+4. **git commit**: Save your changes with a descriptive message. This is essential when you make modifications to the code.
+   ```bash
+   # Commit the changes you've staged with git add
+   git commit -m "Brief description of what you changed"
+   
+   # Combine add and commit for already tracked files
+   git commit -am "Updated existing files"
+   ```
+
+5. **git log**: View the history of updates to the learning materials.
    ```bash
    # Open terminal in the repository folder
    # View recent commits
    git log --oneline -n 5
    ```
 
-4. **git checkout**: Switch to specific versions of learning materials or examples if needed.
+6. **git checkout**: Switch to specific versions of learning materials or examples if needed.
    ```bash
    # Open terminal in the repository folder
    # Checkout a specific file from the repository
    git checkout origin/main -- path/to/file.py
    ```
+
+7. **VS Code Git GUI**: You can perform many Git operations directly through VS Code's graphical interface without typing commands:
+   - View changes in the Source Control tab (icon on the left sidebar)
+   - Stage changes by clicking the + icon next to modified files
+   - Commit by typing a message and clicking the checkmark icon
+   - See diffs by clicking on modified files
+   - Pull, push, and manage branches from the three-dot menu (⋯)
+   - View file history by right-clicking a file and selecting "Git: View File History"
 
 ## 2. Running Jupyter Notebooks in VS Code
 
