@@ -125,8 +125,9 @@ pip install uv
 # Verify installation
 uv --version
 ```
+**Note**: After installing UV globally, you can use it for any Python project on your system.
 
-## 5. Setting Up a Virtual Environment
+## 5. Understanding Virtual Environments
 
 A virtual environment isolates your project dependencies from your system Python. You can use either the traditional venv approach or UV's built-in virtual environment management.
 
@@ -171,7 +172,7 @@ uv venv
 source .venv/bin/activate
 ```
 
-# Repository Setup
+# Repository/Project Specific Setup
 
 ## 1. Cloning the Learning Content Repository
 
