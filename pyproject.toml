@@ -1,5 +1,5 @@
 [project]
-name = "spl-7"
+name = "hands-on-level-up-in-ai"
 version = "0.1.0"
 description = "Module to learn basic of Python and Gen AI for SPL"
 readme = "README.md"

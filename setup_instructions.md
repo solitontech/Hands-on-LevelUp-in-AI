@@ -33,8 +33,8 @@ VS Code is a lightweight but powerful source code editor that runs on your deskt
 ## 2. Installing Python
 
 ### Windows
-1. Visit the [Python downloads page](https://www.python.org/downloads/)
-2. Click on "Download Python" (choose the latest stable version, 3.12.6)
+1. Visit the [Python downloads page](https://www.python.org/downloads/release/python-3126/)
+2. Scroll down and click on `Windows Installer (64-bit)` to download the latest stable version 3.12.6
 3. Run the installer
 4. **Important**: Check the box that says "Add Python to PATH"
 5. Click "Install Now"
@@ -178,8 +178,8 @@ source .venv/bin/activate
 
 ## 1. Cloning the Learning Content Repository
 
-- repository-url - https://github.com/solitontech/SPL-7.git
-- repository name - SPL-7
+- repository-url - https://github.com/solitontech/Hands-on-LevelUp-in-AI.git
+- repository name - Hands-on-LevelUp-in-AI
 
 
 1. Open a terminal:
