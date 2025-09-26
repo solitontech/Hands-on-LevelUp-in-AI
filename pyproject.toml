@@ -1,0 +1,13 @@
+[project]
+name = "hands-on-level-up-in-ai"
+version = "0.1.0"
+description = "Module to learn basic of Python and Gen AI for SPL"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "numpy>=2.2.6",
+    "pandas>=2.3.2",
+    "requests>=2.32.5",
+]
