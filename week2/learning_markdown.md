@@ -8,6 +8,12 @@ Markdown is a lightweight markup language designed to be easy to read and write.
 
 Markdown has gained even greater significance in the age of AI and machine learning:
 
+- **⭐ AI Agent Instructions**: The most crucial use case - structured Markdown documents serve as primary inputs for AI agents and systems, including:
+  - `agents.md` files that define AI agent behaviors, capabilities, and constraints
+  - System prompts for LLMs written in Markdown for consistent formatting
+  - Tool documentation that AI assistants can parse to understand available functions
+  - Conversation contexts and user preferences expressed in Markdown format
+  - Structured knowledge bases that AI systems can navigate semantically
 - **AI Documentation**: Essential for clear, structured documentation of AI models, datasets, and research findings
 - **Prompt Engineering**: Used to format and structure prompts for Large Language Models (LLMs)
 - **Jupyter Integration**: Enables explanatory text alongside AI code in notebooks, crucial for reproducible research
@@ -26,6 +32,16 @@ Markdown has gained even greater significance in the age of AI and machine learn
 > - Jupyter notebook markdown cells
 > - AI model cards and documentation
 > - Prompts for AI systems
+> 
+> **AI-Specific Use Cases:**
+> - **Agent Definition Files**: `.md` files that define behavior, capabilities, and tone for AI agents
+> - **Function Calling Documentation**: Markdown files that describe available tools for AI to utilize
+> - **Conversation Guidelines**: Rules and constraints for AI assistants defined in Markdown
+> - **Knowledge Base Structure**: Hierarchical information stores with semantic relationships
+> - **RAG Context Files**: Formatted content for retrieval-augmented generation systems
+> - **Role Definition Files**: Character and expertise definitions for specialized AI roles
+> - **Error Handling Instructions**: Markdown-formatted guidance for handling edge cases
+> - **Evaluation Rubrics**: Assessment criteria formatted in Markdown tables
 
 ## Basic Syntax
 
