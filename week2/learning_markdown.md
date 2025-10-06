@@ -349,4 +349,6 @@ Remember that different platforms may support different Markdown flavors with sl
 >
 > Always check the specific documentation for the platform you're writing for.
 
+Refer [Documentation-Markdown](https://tds.s-anand.net/#/markdown?id=documentation-markdown) for a crash course on MD.
+
 Happy Markdown writing!

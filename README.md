@@ -23,14 +23,22 @@ Here's what you'll find in your contestant toolkit:
 - **Week 1**: First week's competition materials:
   - [learning_with_chatgpt.md](./week1/learning_with_chatgpt.md): Secret strategies for using ChatGPT to gain a competitive advantage
   - [week1_python_basics.ipynb](./week1/week1_python_basics.ipynb): Your first set of Python challenges to conquer
+- **Week 2**: API and Networking challenge materials:
+  - [001_apis_and_networking.ipynb](./week2/001_apis_and_networking.ipynb): Master the art of API communication
+  - [002_1_tcp_server.ipynb](./week2/002_1_tcp_server.ipynb): Build your own TCP server
+  - [002_2_tcp_client.ipynb](./week2/002_2_tcp_client.ipynb): Create TCP clients to connect with servers
+  - [learning_markdown.md](./week2/learning_markdown.md): Documentation skills for tech champions
+  - **Power_Ups**: Special advanced challenges:
+    - [002_3_http_server.ipynb](./week2/power_ups/002_3_http_server.ipynb): Level up with HTTP server implementation
+    - [002_4_http_client.ipynb](./week2/power_ups/002_4_http_client.ipynb): Master HTTP client development
+    - [environment_variables_in_production.md](./week2/power_ups/environment_variables_in_production.md): Pro-level environment configuration
 
-## ⌛ Coming Soon: Week 2 Preview
+## ⌛ Coming Soon: Week 3 Preview
 
-Get ready for an exciting Week 2 where you'll:
-- 🌐 Explore the world of APIs and web integration
-- 👥 Register your team for the main competition event
+Prepare for Week 3's ultimate challenges:
+- 🤖 Dive into AI model integration with Python
 
-The countdown has begun! Complete Week 1 to be fully prepared for what comes next.
+Complete Week 2 to be battle-ready for these advanced challenges!
 
 ## 💬 Contestant Community
 
