@@ -25,8 +25,8 @@ Here's what you'll find in your contestant toolkit:
   - [week1_python_basics.ipynb](./week1/week1_python_basics.ipynb): Your first set of Python challenges to conquer
 - **Week 2**: API and Networking challenge materials:
   - [001_apis_and_networking.ipynb](./week2/001_apis_and_networking.ipynb): Master the art of API communication
-  - [002_1_tcp_server.ipynb](./week2/002_1_tcp_server.ipynb): Build your own TCP server
-  - [002_2_tcp_client.ipynb](./week2/002_2_tcp_client.ipynb): Create TCP clients to connect with servers
+  - [002_1_tcp_server.ipynb](./week2/power_ups/002_1_tcp_server.ipynb): Build your own TCP server
+  - [002_2_tcp_client.ipynb](./week2/power_ups/002_2_tcp_client.ipynb): Create TCP clients to connect with servers
   - [learning_markdown.md](./week2/learning_markdown.md): Documentation skills for tech champions
   - **Power_Ups**: Special advanced challenges:
     - [002_3_http_server.ipynb](./week2/power_ups/002_3_http_server.ipynb): Level up with HTTP server implementation
