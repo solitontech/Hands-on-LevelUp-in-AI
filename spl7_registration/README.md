@@ -1,16 +1,12 @@
-# 🎉## 🔍 What's in this folder?
-
-- [**`register_team.ipynb`**](./register_team.ipynb) — Your gateway to joining SPL Season 7!
-- [**`update_team.ipynb`**](./update_team.ipynb) — For making changes after registration
-- **client.py** — The behind-the-scenes magic (⚠️ **DO NOT MODIFY**)Season 7 Registration is HERE!
+# 🎉SPL Season7 Registration is HERE!
 
 Welcome to the Soliton Premier League Season 7 registration process! This year, we're doing something different — you'll register your team by **running code** rather than filling out forms!
 
-## � What's in this folder?
+## 🔍 What's in this folder?
 
 - [**`register_team.ipynb`**](./register_team.ipynb) — Your gateway to joining SPL Season 7!
 - [**`update_team.ipynb`**](./update_team.ipynb) — For making changes after registration
-- **`client.py`** — The behind-the-scenes magic (⚠️ **DO NOT MODIFY**)
+- **client.py** (⚠️ **DO NOT MODIFY**) — The behind-the-scenes magic Season 7 
 
 ## 🤝 Team Registration
 
