@@ -3,6 +3,7 @@
 Welcome to the Soliton Premier League Season 7 registration process! This year, we're doing something different — you'll register your team by **running code** rather than filling out forms!
 
 > 🔧 **New to SPL?** Haven't set up the repository yet? [Check out our SPL starter pack](https://spl.solitontech.ai/docs/setup-tools/intro)
+> **No Prerequisites Needed** — Don't worry about completing Week 1 or Week 2 content before registering. Jump right in and learn at your own pace! The learning materials are there to help you, not block you 🧠✨
 
 ## 🔍 What's in this folder?
 
@@ -37,6 +38,7 @@ Just remember to have your Team ID handy from the registration step.
 - **Team Composition** — Exactly 2 participants per team
 - **Location Rule** — At least one teammate must be in Coimbatore
 - **One Team Policy** — Each person can only join ONE team
+
 
 ## 💡 Get Help
 
