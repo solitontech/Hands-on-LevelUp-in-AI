@@ -34,7 +34,7 @@ Just remember to have your Team ID handy from the registration step.
 ## ⚠️ Quick Reminders
 
 - **Repository Setup** — [Follow the setup guide](https://spl.solitontech.ai/docs/setup-tools/intro) if you haven't cloned and configured the repo yet
-- **API Key Required** — Get yours from the [SPL platform](https://spl7.solitontech.ai/)
+- **API Key Required** — Get yours from the [SPL platform](https://spl-leaderboard.solitontech.ai/)
 - **Team Composition** — Exactly 2 participants per team
 - **Location Rule** — At least one teammate must be in Coimbatore
 - **One Team Policy** — Each person can only join ONE team
