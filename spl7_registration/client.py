@@ -7,7 +7,7 @@ import os
 import json
 import requests
 
-BASE_URL = "https://spl7backend.solitontech.ai/v1"
+BASE_URL = "https://spl-leaderboard-service.solitontech.ai/v1"
 
 
 def _handle_request_exception(response: requests.Response) -> dict:

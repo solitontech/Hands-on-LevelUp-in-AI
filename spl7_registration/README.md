@@ -2,6 +2,8 @@
 
 Welcome to the Soliton Premier League Season 7 registration process! This year, we're doing something different — you'll register your team by **running code** rather than filling out forms!
 
+> 🔧 **New to SPL?** Haven't set up the repository yet? [Check out our SPL starter pack](https://spl.solitontech.ai/docs/setup-tools/intro)
+
 ## 🔍 What's in this folder?
 
 - [**`register_team.ipynb`**](./register_team.ipynb) — Your gateway to joining SPL Season 7!
@@ -30,6 +32,7 @@ Just remember to have your Team ID handy from the registration step.
 
 ## ⚠️ Quick Reminders
 
+- **Repository Setup** — [Follow the setup guide](https://spl.solitontech.ai/docs/setup-tools/intro) if you haven't cloned and configured the repo yet
 - **API Key Required** — Get yours from the [SPL platform](https://spl7.solitontech.ai/)
 - **Team Composition** — Exactly 2 participants per team
 - **Location Rule** — At least one teammate must be in Coimbatore
