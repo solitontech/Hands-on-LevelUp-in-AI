@@ -205,10 +205,9 @@ Replace `[repository-url]` with the actual URL and `[repository-name]` with the 
 
 ```bash
 # Clone the repository
-git clone [repository-url]
-
+git clone https://github.com/solitontech/Hands-on-LevelUp-in-AI.git
 # Navigate to the repository folder
-cd [repository-name]
+cd Hands-on-LevelUp-in-AI
 
 # Create a virtual environment with UV
 uv venv
@@ -235,7 +234,7 @@ Here are the key Git commands you'll use most frequently. Run these in your term
 1. **git pull**: Update your local repository with the latest learning materials and examples. This is the command you'll use most often to get new content.
    ```bash
    # Make sure you're in the repository directory
-   cd [repository-name]
+   cd [repository-path]
    
    # Pull the latest changes
    git pull

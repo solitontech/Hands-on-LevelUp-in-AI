@@ -2,8 +2,14 @@
 
 Welcome to the Soliton Premier League Season 7 registration process! This year, we're doing something different — you'll register your team by **running code** rather than filling out forms!
 
-> 🔧 **New to SPL?** Haven't set up the repository yet? [Check out our SPL starter pack](https://spl.solitontech.ai/docs/setup-tools/intro)
+> 🔧 **New to SPL?** Haven't set up the repository yet? Check out the [setup_instructions.md](../setup_instructions.md) to quickly get yourself comfortable with the workspace.
 > **No Prerequisites Needed** — Don't worry about completing Week 1 or Week 2 content before registering. Jump right in and learn at your own pace! The learning materials are there to help you, not block you 🧠✨
+
+### 📋 Set Up For Success
+
+- 🚀 **The SPL Way:** Follow the [setup instructions](../setup_instructions.md) to clone the repository properly. You'll get a fully configured environment with all dependencies working seamlessly. Plus, you can easily pull updates as SPL evolves!
+
+- ⚠️ **Avoid Pitfalls:** While downloading the repository as a ZIP might seem like a shortcut, it often leads to missing dependencies, configuration headaches, and update difficulties. Trust us — the extra minute spent on proper Git setup saves hours of troubleshooting later!
 
 ## 🔍 What's in this folder?
 
