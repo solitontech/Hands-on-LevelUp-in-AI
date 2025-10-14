@@ -219,7 +219,7 @@ uv venv
 # source .venv/bin/activate
 
 # Install the packages from the pyproject.toml
-uv pip install -e .
+uv sync
 
 # To add custom packages (optional)
 uv add <package_name>
