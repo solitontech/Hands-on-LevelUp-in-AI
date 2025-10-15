@@ -33,12 +33,13 @@ Here's what you'll find in your contestant toolkit:
     - [002_4_http_client.ipynb](./week2/power_ups/002_4_http_client.ipynb): Master HTTP client development
     - [environment_variables_in_production.md](./week2/power_ups/environment_variables_in_production.md): Pro-level environment configuration
 
-## ⌛ Coming Soon: Week 3 Preview
+## 🤖 Week 3: AI Mastery Challenge
 
-Prepare for Week 3's ultimate challenges:
-- 🤖 Dive into AI model integration with Python
+The competition heats up as we dive into the world of AI integration! This week's challenges will test your ability to harness the power of Large Language Models:
 
-Complete Week 2 to be battle-ready for these advanced challenges!
+- [llm_learning_resources.md](./week3/llm_learning_resources.md): Essential knowledge for understanding the fundamentals of Large Language Models
+- [001_building_chat_assistant_with_gemini.ipynb](./week3/001_building_chat_assistant_with_gemini.ipynb): Create your own chat assistant using Google's Gemini API
+
 
 ## 💬 Contestant Community
 

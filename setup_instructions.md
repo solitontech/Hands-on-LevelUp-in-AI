@@ -215,11 +215,12 @@ uv venv
 # Activate the virtual environment
 # On Windows:
 .venv\Scripts\activate
+
 # On macOS/Linux:
 # source .venv/bin/activate
 
 # Install the packages from the pyproject.toml
-uv sync
+uv pip install -e .
 
 # To add custom packages (optional)
 uv add <package_name>
