@@ -34,6 +34,9 @@ Compare different methods of customizing LLM behavior for specific applications.
 Explore the different models available from OpenAI and understand their capabilities.
 - [OpenAI Models Documentation](https://platform.openai.com/docs/models)
 
+### Bonus Resource: Dive Deeper into LLMs
+- **Andrej Karpathy's LLM Playlist**: [LLMs by Andrej Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI) (YouTube)
+
 ## Practical Application
 
 After reviewing these resources, you'll be well-prepared for our practical notebook exercises where we'll be using **Google's Gemini API**. While the concepts you learn from these videos largely focus on OpenAI models, the principles apply across different LLM platforms, and you'll be able to apply this knowledge when working with Gemini.
@@ -44,11 +47,14 @@ The Gemini API offers similar capabilities to OpenAI's models but with its own u
 
 Google's Gemini offers:
 - Strong performance across various tasks
-- Competitive pricing
+- **Free to begin with** - perfect for learning and experimentation
 - Easy-to-use API
 - Excellent documentation and support
+- Competitive pricing for advanced usage
 
 By learning the core concepts of LLMs and then applying them with Gemini, you'll develop skills that are transferable across different LLM platforms in the future.
+
+**Note for SPL Event Participants:** For our official SPL event, we will be using OpenAI's models. We are currently working on finalizing the pricing and access arrangements. The skills you learn with Gemini will transfer seamlessly to working with OpenAI's models.
 
 ## The Hidden Treasure Trove 🏴‍☠️
 
@@ -62,8 +68,45 @@ Feel free to explore topics that pique your interest or areas where you're think
 
 *Unofficial stats say only 12.7% of people ever click this link. Be part of the enlightened minority!* 😉
 
+## Top Voices to Follow
+
+Staying updated with the latest in AI often means following the right voices in the field. Here are some of the top experts and thought leaders to follow:
+
+### YouTube Channels
+- **Andrew Ng**: [DeepLearningAI Youtube Channel](https://www.youtube.com/@Deeplearningai)
+- **Andrej Karpathy**: [Andrej Karpathy's YouTube Channel](https://www.youtube.com/@karpathy)
+
+
+### Newsletters
+- **Andrew Ng's Newsletter**: [The Batch](https://www.deeplearning.ai/thebatch/)
+- **Andrej Karpathy's Updates**: [@karpathy](https://twitter.com/karpathy) Follow his Twitter for announcements.
+
+Feel free to explore their content to gain insights into the latest trends, research, and practical applications in AI.
+
+## How to Keep Yourself Updated with Reliable Sources in AI
+
+The field of AI is evolving rapidly, and staying informed requires a mix of reliable sources. Here are some tips and resources to help you keep up:
+
+1. **Follow Reputable Researchers and Practitioners**: As listed above, follow experts like Andrew Ng and Andrej Karpathy on platforms like YouTube and Twitter.
+
+2. **Subscribe to Newsletters**:
+   - [The Batch](https://www.deeplearning.ai/thebatch/): Weekly updates on AI advancements.
+   - [Import AI](https://jack-clark.net/): A newsletter by Jack Clark covering AI research and policy.
+
+3. **Read Research Papers**: Use platforms like [arXiv](https://arxiv.org/) to access the latest AI research papers.
+
+4. **Engage with Online Communities**: Join forums like [Reddit's Machine Learning Community](https://www.reddit.com/r/MachineLearning/) or participate in discussions on platforms like LinkedIn.
+
+5. **Attend Conferences and Webinars**: Keep an eye out for events like NeurIPS, CVPR, and webinars hosted by AI organizations.
+
+6. **Explore AI Blogs and Websites**:
+   - [OpenAI Blog](https://openai.com/blog/): Updates from OpenAI.
+   - [Google AI Blog](https://ai.googleblog.com/): Insights from Google's AI team.
+
+By leveraging these resources, you'll be well-equipped to stay informed about the latest developments and trends in AI.
+
 ## Next Steps
 
-Once you've reviewed these resources (and maybe peeked at the secret knowledge base), open the `001_building_ai_assistants_with_gemini_final.ipynb` notebook in the Week 3 folder to start building your own AI assistants using the Gemini API!
+Once you've reviewed these resources (and maybe peeked at the secret knowledge base), open the [001_building_ai_assistants_with_gemini_final.ipynb](001_building_chat_assistant_with_gemini.ipynb) notebook in the Week 3 folder to start building your own AI assistants using the Gemini API!
 
 Happy learning!
