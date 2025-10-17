@@ -4,6 +4,19 @@ Congratulations on taking this amazing step to level up your skills! Get ready f
 
 This guide will help you set up your development environment for the Python and AI weekly learning content. Follow these steps to install and configure all necessary tools.
 
+## Table of Contents
+- [1. Installing Visual Studio Code](#1-installing-visual-studio-code-optional-if-havent-installed-vs-code)
+- [2. Installing Python](#2-installing-python)
+- [3. Installing Required VS Code Extensions](#3-installing-required-vs-code-extensions)
+- [4. Installing and Using UV for Package Management](#4-installing-and-using-uv-for-package-management)
+- [5. Understanding Virtual Environments](#5-understanding-virtual-environments)
+- [Repository/Project Specific Setup](#repositoryproject-specific-setup)
+  - [1. Cloning the Learning Content Repository](#1-cloning-the-learning-content-repository)
+  - [2. Running Jupyter Notebooks in VS Code](#2-running-jupyter-notebooks-in-vs-code)
+- [Troubleshooting](#troubleshooting)
+- [Additional Resources](#additional-resources)
+- [Need Help?](#need-help)
+
 ## 1. Installing Visual Studio Code (Optional, if haven't installed VS code)
 
 VS Code is a lightweight but powerful source code editor that runs on your desktop.
@@ -355,6 +368,15 @@ This course includes helpful video tutorials on using VS Code, Python, and vario
 
 ## Need Help?
 
-If you encounter any issues during setup, please contact your team coordinator for assistance.
+- 💬 [**GEN_AI_TEAMS_CHANNEL**](https://teams.microsoft.com/l/channel/19%3Aaf4e16f3a50a4372846dd40805221b91%40thread.tacv2/Generative%20AI?groupId=3b6ae143-8bc8-4f55-b828-a6972eb8d47b&tenantId=06ed72e8-a419-4795-9eb3-5512cf1d3d98) — For general AI and technical questions
+- ❓ [**SPL_SEASON_7_TEAMS_CHANNEL**](https://teams.microsoft.com/l/channel/19%3Af0e7c7328075454ea9ef89b0f51e62a3%40thread.tacv2/7%20-%20SPL%20Season%207?groupId=3b6ae143-8bc8-4f55-b828-a6972eb8d47b&tenantId=06ed72e8-a419-4795-9eb3-5512cf1d3d98) — For SPL-specific questions and registration help
+- 🎯 [**AI & SPL OPEN OFFICE**](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjliNmI2NGUtM2YyNi00NDUyLWIzYTgtZThhMGUyYTIzYzlm%40thread.v2/0?context=%7b%22Tid%22%3a%2206ed72e8-a419-4795-9eb3-5512cf1d3d98%22%2c%22Oid%22%3a%221de93ab7-8ad1-4268-8b41-bf54215f7ac1%22%7d) — Join our working meeting to get all your registration and SPL questions answered live!
+  - **Drop in when it fits your schedule:** 
+    - 📅 **Mon/Wed/Fri:** 2:00-3:00 PM (Afternoon brain boost!)
+    - 📅 **Tuesday:** 6:30-7:30 PM (Post-work coding session)
+    - 📅 **Thursday:** 9:00-10:00 AM (Morning coffee and code)
+
+We're just a message away! Don't be shy — we're here to help you crush this season! 🚀
+
 
 Happy coding!
