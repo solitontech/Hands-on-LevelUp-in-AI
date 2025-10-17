@@ -107,6 +107,6 @@ By leveraging these resources, you'll be well-equipped to stay informed about th
 
 ## Next Steps
 
-Once you've reviewed these resources (and maybe peeked at the secret knowledge base), open the [001_building_ai_assistants_with_gemini_final.ipynb](001_building_chat_assistant_with_gemini.ipynb) notebook in the Week 3 folder to start building your own AI assistants using the Gemini API!
+Once you've reviewed these resources (and maybe peeked at the secret knowledge base), open the [001_building_ai_assistants_with_gemini.ipynb](001_building_chat_assistant_with_gemini.ipynb) notebook in the Week 3 folder to start building your own AI assistants using the Gemini API!
 
 Happy learning!
