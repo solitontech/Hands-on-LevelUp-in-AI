@@ -1,20 +1,20 @@
 # Week 4: Mastering Prompt Engineering
 
-Welcome to Week 4 of our Python for Learning AI series! This week, we'll dive deep into the art and science of **Prompt Engineering** - the skill of crafting effective instructions for Large Language Models to get the best possible results.
+Welcome to Week 4 of our Hands on Level Up in AI series! This week, we'll dive deep into the art and science of **Prompt Engineering** - the skill of crafting effective instructions for Large Language Models to get the best possible results.
 
 ## Table of Contents
 - [What You'll Learn This Week](#what-youll-learn)
-- [Primary Learning Resource](#primary-resource)
-- [Optional Resources & Further Learning](#optional-resources)
-- [Key Prompting Principles to Remember](#key-principles)
-- [Practical Exercise Ideas](#practical-exercises)
-- [Interactive Prompting Game](#prompting-game)
-- [Connecting to Week 3](#connecting-week3)
-- [Tips for Success](#tips-success)
-- [Learning Outcomes](#learning-outcomes)
-- [Additional Communities & Resources](#communities)
-- [Next Steps](#next-steps)
-- [Bonus: Prompt Templates](#prompt-templates)
+   - [Primary Learning Resource](#primary-resource)
+   - [Optional Resources & Further Learning](#optional-resources)
+   - [Key Prompting Principles to Remember](#key-principles)
+   - [Practical Exercise Ideas](#practical-exercises)
+   - [Interactive Prompting Game](#prompting-game)
+   - [Connecting to Week 3](#connecting-week3)
+   - [Tips for Success](#tips-success)
+   - [Learning Outcomes](#learning-outcomes)
+   - [Additional Communities & Resources](#communities)
+   - [Next Steps](#next-steps)
+   - [Bonus: Prompt Templates](#prompt-templates)
 
 <a id="what-youll-learn"></a>
 ## 🎯 What You'll Learn This Week
@@ -67,6 +67,20 @@ Prompt Engineering is the process of designing and refining prompts (inputs) to 
 **Prerequisites:** Basic understanding of LLMs (covered in Week 3)
 
 ---
+
+<a id="prompting-game"></a>
+## 🎮 Interactive Prompting Game
+
+Want to test your prompting skills in a fun way? Try this interactive game:
+
+**Gandalf - The Prompting Challenge**
+- [Play Gandalf](https://gandalf.lakera.ai/baseline)
+- A gamified experience where you use prompt engineering to extract secret passwords from an AI
+- Multiple levels of increasing difficulty
+- Great for understanding prompt injection, jailbreaking concepts, and defensive prompting
+- Learn by doing: each level teaches you new prompting techniques
+
+This game is an excellent way to practice and sharpen your prompt engineering skills while having fun!
 
 <a id="optional-resources"></a>
 ## 🌟 Optional Resources & Further Learning
@@ -163,20 +177,6 @@ After completing the learning resources, try these exercises:
 5. **Information Extraction**
    - Create prompts to extract structured data from unstructured text
    - Practice using output formatting instructions
-
-<a id="prompting-game"></a>
-## 🎮 Interactive Prompting Game
-
-Want to test your prompting skills in a fun way? Try this interactive game:
-
-**Gandalf - The Prompting Challenge**
-- [Play Gandalf](https://gandalf.lakera.ai/baseline)
-- A gamified experience where you use prompt engineering to extract secret passwords from an AI
-- Multiple levels of increasing difficulty
-- Great for understanding prompt injection, jailbreaking concepts, and defensive prompting
-- Learn by doing: each level teaches you new prompting techniques
-
-This game is an excellent way to practice and sharpen your prompt engineering skills while having fun!
 
 <a id="connecting-week3"></a>
 ## 🚀 Connecting to Week 3

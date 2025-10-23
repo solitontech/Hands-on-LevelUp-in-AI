@@ -14,6 +14,7 @@ This repository is your gateway to the SPL-7 contest. Here you'll find all the m
   - [Week 1](#week-1)
   - [Week 2](#week-2)
   - [Week 3](#week-3)
+  - [Week 4](#week-4)
 - [Contestant Community](#contestant-community)
 
 ---
@@ -60,6 +61,12 @@ Here's what you'll find in your contestant toolkit:
 
 - [001_building_chat_assistant_with_gemini.ipynb](./week3/001_building_chat_assistant_with_gemini.ipynb): Create your own chat assistant using Google's Gemini API  
 - [llm_learning_resources.md](./week3/llm_learning_resources.md): Essential knowledge for understanding the fundamentals of Large Language Models  
+
+<a id="week-4"></a>
+### Week 4 — Prompt Engineering Mastery
+
+- [prompting_techniques.md](./week4/prompting_techniques.md): Master the art and science of crafting effective prompts for LLMs
+- **Interactive Challenge**: Try the [Gandalf Prompting Game](https://gandalf.lakera.ai/baseline) to sharpen your skills through gamified challenges
 
 ---
 
