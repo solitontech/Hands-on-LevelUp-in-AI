@@ -9,9 +9,11 @@ dependencies = [
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.6",
     "numpy>=2.2.6",
+    "openai>=2.6.1",
     "pandas>=2.3.2",
     "python-dotenv>=1.1.1",
     "requests>=2.32.5",
+    "tiktoken>=0.12.0",
 ]
 [tool.setuptools.packages.find]
-include = [ "spl_registration", "week1", "week2", "week3"]
+include = [ "spl_registration", "week1", "week2", "week3", "openai_bytes"]
