@@ -1,6 +1,6 @@
 # Quick Start for OpenAI Bytes
 
-Follow this setup to open the notebook and send your first API call. Refer to [`setup_instructions.md`](setup_instructions.md) for deeper dives into Git, package management, or troubleshooting.
+Follow this setup to open the notebook and send your first API call. Refer to [`setup_instructions.md`](../setup_instructions.md) for deeper dives into Git, package management, or troubleshooting.
 
 ## 1. Prerequisites
 - Python 3.11+ installed
@@ -49,4 +49,4 @@ OPENAI_API_KEY="your_sk-live-or-team-key"
 
 Run the notebooks top to bottom. Use your OpenAI key and start experimenting with the hero models.
 
-Need more detail? Dive into [`setup_instructions.md`](setup_instructions.md) for Git basics, dependency management tips, and optional tools.
+Need more detail? Dive into [`setup_instructions.md`](../setup_instructions.md) for Git basics, dependency management tips, and optional tools.
