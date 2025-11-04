@@ -5,7 +5,7 @@ Follow this setup to open the notebook and send your first API call. Refer to [`
 ## 1. Prerequisites
 - Python 3.11+ installed
 - `uv` package manager available (`pip install uv` if missing)
-- OpenAI API key with access to GPT-5/GPT-4 series models
+- OpenAI API key with access to GPT-5/GPT-4 series models. If you have not got your key yet, follow the instructions given [here](https://spl.solitontech.ai/docs/setup-tools/creating-openai-api-key/).
 
 ## 2. Clone and Activate the Project
 1. Clone the repository:
