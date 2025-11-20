@@ -15,30 +15,30 @@
 2. Ensure Soliton VPN access (needed for pre-SPL only)  
 3. Confirm access to SPL organization on OpenAI platform  
 4. Confirm access to your project and create your OpenAI API key  
-5. Install Python or chosen language runtime  
+5. Install Python or chosen language runtime ([Python Setup Instructions](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/setup_instructions.md#2-installing-python))
 6. Install required packages and preferred editors  
 7. Verify LAN/Wi-Fi connectivity at office  
 
 ---
 
 ## 2. API Skills & Technical Know-How
-1. Have sample code for calling OpenAI Responses API  
-2. Have sample code for calling OpenAI Conversation API  
-3. Know how to make async, non-blocking LLM calls  
-4. Know how to manage multiple games asynchronously from one bot  
+1. Have sample code for calling OpenAI Responses API ([Async API Calls Example](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/02_async_api_calls.ipynb))  
+2. Have sample code for calling OpenAI Conversation API ([Understanding OpenAI Models](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/01_understanding_openai_models.ipynb))  
+3. Know how to make async, non-blocking LLM calls ([Async API Calls Example](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/02_async_api_calls.ipynb))  
+4. Know how to manage multiple games asynchronously from one bot ([Async API Calls Example](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/02_async_api_calls.ipynb))  
 5. Know how to use WebSockets for sending/receiving messages  
 6. Understand and use JSON formats correctly  
-7. Know how to use structured prompts with variables  
-8. Able to debug OpenAI API errors with logs and systematic steps  
+7. Know how to use structured prompts with variables ([Understanding OpenAI Models](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/01_understanding_openai_models.ipynb))  
+8. Able to debug OpenAI API errors with logs and systematic steps ([Async API Calls Example](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/02_async_api_calls.ipynb))  
 
 ---
 
 ## 3. Model Usage & Limits
-1. Know accessible models and when to use each  
-2. Understand rate limits (RPM, TPM)  
-3. Know model token costs and budgeting  
-4. Able to choose the right model using reasoning or LLM help  
-5. Track usage, limits, and spending in the OpenAI dashboard  
+1. Know accessible models and when to use each ([Learn about OpenAI Models](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/01_understanding_openai_models.ipynb))  
+2. Understand rate limits (RPM, TPM) ([Handle Rate Limits Effectively](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/04_rate_limits_with_responses.ipynb))  
+3. Know model token costs and budgeting ([Optimize Token Costs](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/04_rate_limits_with_responses.ipynb))  
+4. Able to choose the right model using reasoning or LLM help ([Choosing the Right Model](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/01_understanding_openai_models.ipynb))  
+5. Track usage, limits, and spending in the OpenAI dashboard ([Monitor Usage and Spending](https://platform.openai.com/usage))  
 
 ---
 
