@@ -38,7 +38,8 @@
 2. Understand rate limits (RPM, TPM) ([Handle Rate Limits Effectively](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/04_rate_limits_with_responses.ipynb))  
 3. Know model token costs and budgeting ([Optimize Token Costs](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/04_rate_limits_with_responses.ipynb))  
 4. Able to choose the right model using reasoning or LLM help ([Choosing the Right Model](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/openai_bytes/01_understanding_openai_models.ipynb))  
-5. Track usage, limits, and spending in the OpenAI dashboard ([Monitor Usage and Spending](https://platform.openai.com/usage))  
+5. Track usage, limits, and spending in the OpenAI dashboard ([Monitor Usage and Spending](https://platform.openai.com/usage))
+6. Arize Phoenix for Observability - User friendly token/cost tracking, debug LLM calls.([LLM Observability tracking using Arize Phoenix](https://teams.microsoft.com/l/message/19:8a09aa85ec4b489a9a1628bcad99a94a@thread.tacv2/1728229594477?tenantId=06ed72e8-a419-4795-9eb3-5512cf1d3d98&groupId=715f74be-78b5-4b2f-b13c-dfde1d1a2d6f&parentMessageId=1728229594477&teamName=Ventures&channelName=Tech%20Talk&createdTime=1728229594477))
 
 ---
 
