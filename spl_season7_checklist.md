@@ -18,6 +18,7 @@
 5. Install Python or chosen language runtime ([Python Setup Instructions](https://github.com/solitontech/Hands-on-LevelUp-in-AI/blob/main/setup_instructions.md#2-installing-python))
 6. Install required packages and preferred editors  
 7. Verify LAN/Wi-Fi connectivity at office  
+8. Install NodeJS([NodeJS installation Guide](https://www.youtube.com/watch?v=GIlLR5PQr-0&t=161s))
 
 ---
 
